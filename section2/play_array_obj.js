@@ -1,3 +1,4 @@
+//object = reference types = can modify even if const
 const person = {
     name: 'Petr',
     age: 22, 
@@ -11,8 +12,5 @@ const hobbies = ['sports', 'cookin',1, true,];
 //     console.log(hobby);
 // }
 
-//map creates new array
-console.log(hobbies.map(hobby => {
-    return `hobby: ${hobby}`
-}));
+hobbies.push('programming'); //add new item to object
 console.log(hobbies);

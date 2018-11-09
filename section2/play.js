@@ -11,7 +11,6 @@ const hobbies = ['sports', 'cookin',1, true,];
 //     console.log(hobby);
 // }
 
-//map creates new array
 console.log(hobbies.map(hobby => {
     return `hobby: ${hobby}`
 }));
